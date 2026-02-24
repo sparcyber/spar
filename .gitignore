@@ -1,0 +1,52 @@
+# Binary
+/spar
+/dist/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+
+# Vendor (if used)
+/vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Spar local config and state
+.spar/
+
+# Packer
+packer_cache/
+*.pkr.hcl.lock.hcl
+
+# Ansible
+*.retry
+
+# Node (for Svelte topology component build)
+node_modules/
+
+# Test coverage
+coverage.out
+coverage.html
